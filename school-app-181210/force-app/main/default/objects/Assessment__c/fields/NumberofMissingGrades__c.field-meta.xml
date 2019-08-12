@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberofMissingGrades__c</fullName>
+    <description>Displays the number of assessments of this type that need to be graded. It is calculated based on the number of students in the class and the number of graded grade records for this assessment.</description>
+    <externalId>false</externalId>
+    <formula>Class__r.ClassSize__c -  NumberGraded__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Number of Missing Grades</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

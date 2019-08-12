@@ -1,0 +1,8 @@
+Hello {!Receiving_User.Name}!
+
+This is a reminder, that you have {!Assessment__c.NumberUngraded__c}ungraded grade records for the following assessment: {!Assessment__c.Name}.
+
+Based on the students that you have graded for this assessment, the current average for this assessment is {!Assessment__c.AverageScore__c}.
+
+Thank you and Happy Grading!
+- Your Salesforce Admin

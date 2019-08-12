@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Revature_Letterhead</letterhead>
+    <name>Class Submission Confirmation</name>
+    <style>freeForm</style>
+    <subject>Class Submission Confirmation</subject>
+    <textOnly>Hello {!Class__c.OwnerFullName},
+
+We just want to confirm that the class {!Class__c.Link} has been submitted for approval.
+
+Approval Status: {!Class__c.Approval_Status__c}
+Class Code: {!Class__c.ClassCode__c}
+Subject: {!Class__c.Subject__c}
+Topic: {!Class__c.Topic__c}
+Year: {!Class__c.Year__c}
+
+Congrats!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

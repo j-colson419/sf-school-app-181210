@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_After_Creation_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(YEAR(DueDate__c) &gt;=  YEAR(DATEVALUE(CreatedDate)))
+||
+NOT(MONTH(DueDate__c) &gt;= MONTH(DATEVALUE(CreatedDate)))
+||
+NOT(DAY(DueDate__c) &gt;= DAY(DATEVALUE(CreatedDate)))</errorConditionFormula>
+    <errorDisplayField>DueDate__c</errorDisplayField>
+    <errorMessage>The due date for an assessment must be equal to or later than the date the assessment was created.</errorMessage>
+</ValidationRule>

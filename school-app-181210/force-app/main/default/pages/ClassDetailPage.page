@@ -1,0 +1,44 @@
+<apex:page standardController="Class__c">
+    <apex:form >
+        <apex:pageBlock title="Class">
+            <apex:pageBlockSection columns="2">
+                <apex:outputField value="{!Class__c.Name}"/>
+                <apex:outputText label="Owner">
+                    <apex:commandLink value="{!Class__c.Owner.Name}" action="{!}"/>
+                </apex:outputText>
+                <apex:outputField value="{!Class__c.Subject__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.Topic__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.Semester__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.Year__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.ClassCode__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.ClassSize__c}"/>
+                <apex:outputText />
+                <apex:outputField value="{!Class__c.Approval_Status__c}"/>
+                <apex:outputText />
+                <apex:outputText label="Created By">
+                    <apex:commandLink value="{!Class__c.CreatedBy.Name}" action="{!}"/>, 
+                    <apex:outputField value="{!Class__c.CreatedDate}"/>
+                </apex:outputText>
+                <apex:outputText label="Last Modified By">
+                    <apex:commandLink value="{!Class__c.LastModifiedBy.Name}" action="{!}"/>, 
+                    <apex:outputField value="{!Class__c.LastModifiedDate}"/>
+                </apex:outputText>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Class Enrollments">
+                <apex:pageBlockTable value="{!Class__c.ClassEnrollments__r}" var="ce">
+                    <apex:column >
+                        <apex:facet name="header">Actions</apex:facet>
+                        <apex:commandLink value="Edit"/> | 
+                         <apex:commandLink value="Del"/>
+                    </apex:column>
+                    <apex:column value="{!ce.Name}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

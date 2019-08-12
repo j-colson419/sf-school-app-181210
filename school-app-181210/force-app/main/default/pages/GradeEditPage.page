@@ -1,0 +1,21 @@
+<apex:page standardController="Grade__c" recordSetVar="grades">
+    <apex:form >
+    	<apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+        	<apex:pageBlockTable value="{!grades}" var="grade">
+                <apex:column value="{!grade.Class_Enrollment__r.Student__r.Name}"/>
+                <apex:column value="{!grade.Class_Enrollment__r.Class__r.ClassCode__c}"/>
+                <apex:column value="{!grade.Assessment__r.Name}"/>
+                <apex:column >
+                    <apex:facet name="header">Grade</apex:facet>
+                	<apex:outputField value="{!grade.Grade__c}">
+                    	<apex:inlineEditSupport event="onmouseover" />
+                    </apex:outputField>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClassMustBeApproved</fullName>
+    <active>true</active>
+    <description>Checks to see if a class has been approved before allowing students to be enrolled.</description>
+    <errorConditionFormula>TEXT(Class__r.Approval_Status__c) != &#39;Approved&#39;</errorConditionFormula>
+    <errorDisplayField>Class__c</errorDisplayField>
+    <errorMessage>This class is not available for enrollment at this time.</errorMessage>
+</ValidationRule>

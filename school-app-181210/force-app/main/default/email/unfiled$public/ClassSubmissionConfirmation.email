@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hello&nbsp;{!Class__c.OwnerFullName},<div><br></div><div>We just want to confirm that the class&nbsp;{!Class__c.Link} has been submitted for approval.</div><div><br></div><div>Approval Status:&nbsp;{!Class__c.Approval_Status__c}</div><div>Class Code:&nbsp;{!Class__c.ClassCode__c}</div><div>Subject:&nbsp;{!Class__c.Subject__c}</div><div>Topic:&nbsp;{!Class__c.Topic__c}</div><div>Year:&nbsp;{!Class__c.Year__c}</div><div><br></div><div>Congrats!</div><div><br></div>]]></td>
+</tr>
+</table>

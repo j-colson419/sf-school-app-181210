@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topic__c</fullName>
+    <externalId>false</externalId>
+    <label>Topic</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subject__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Algebra</fullName>
+                <default>false</default>
+                <label>Algebra</label>
+            </value>
+            <value>
+                <fullName>Geometry</fullName>
+                <default>false</default>
+                <label>Geometry</label>
+            </value>
+            <value>
+                <fullName>Trigonometry</fullName>
+                <default>false</default>
+                <label>Trigonometry</label>
+            </value>
+            <value>
+                <fullName>Pre-Calculus</fullName>
+                <default>false</default>
+                <label>Pre-Calculus</label>
+            </value>
+            <value>
+                <fullName>Statistics</fullName>
+                <default>false</default>
+                <label>Statistics</label>
+            </value>
+            <value>
+                <fullName>Calculus AB</fullName>
+                <default>false</default>
+                <label>Calculus AB</label>
+            </value>
+            <value>
+                <fullName>Calculus BC</fullName>
+                <default>false</default>
+                <label>Calculus BC</label>
+            </value>
+            <value>
+                <fullName>English I</fullName>
+                <default>false</default>
+                <label>English I</label>
+            </value>
+            <value>
+                <fullName>English II</fullName>
+                <default>false</default>
+                <label>English II</label>
+            </value>
+            <value>
+                <fullName>English III</fullName>
+                <default>false</default>
+                <label>English III</label>
+            </value>
+            <value>
+                <fullName>English IV</fullName>
+                <default>false</default>
+                <label>English IV</label>
+            </value>
+            <value>
+                <fullName>Biology</fullName>
+                <default>false</default>
+                <label>Biology</label>
+            </value>
+            <value>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+                <label>Chemistry</label>
+            </value>
+            <value>
+                <fullName>Physics</fullName>
+                <default>false</default>
+                <label>Physics</label>
+            </value>
+            <value>
+                <fullName>Anatomy &amp; Physiology</fullName>
+                <default>false</default>
+                <label>Anatomy &amp; Physiology</label>
+            </value>
+            <value>
+                <fullName>Geology</fullName>
+                <default>false</default>
+                <label>Geology</label>
+            </value>
+            <value>
+                <fullName>World History</fullName>
+                <default>false</default>
+                <label>World History</label>
+            </value>
+            <value>
+                <fullName>US History</fullName>
+                <default>false</default>
+                <label>US History</label>
+            </value>
+            <value>
+                <fullName>European History</fullName>
+                <default>false</default>
+                <label>European History</label>
+            </value>
+            <value>
+                <fullName>Civics</fullName>
+                <default>false</default>
+                <label>Civics</label>
+            </value>
+            <value>
+                <fullName>Photography</fullName>
+                <default>false</default>
+                <label>Photography</label>
+            </value>
+            <value>
+                <fullName>Ceramics</fullName>
+                <default>false</default>
+                <label>Ceramics</label>
+            </value>
+            <value>
+                <fullName>Painting</fullName>
+                <default>false</default>
+                <label>Painting</label>
+            </value>
+            <value>
+                <fullName>Jewelry</fullName>
+                <default>false</default>
+                <label>Jewelry</label>
+            </value>
+            <value>
+                <fullName>Drawing</fullName>
+                <default>false</default>
+                <label>Drawing</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Freshmen PE</fullName>
+                <default>false</default>
+                <label>Freshmen PE</label>
+            </value>
+            <value>
+                <fullName>Sophomore PE</fullName>
+                <default>false</default>
+                <label>Sophomore PE</label>
+            </value>
+            <value>
+                <fullName>Weight Training</fullName>
+                <default>false</default>
+                <label>Weight Training</label>
+            </value>
+            <value>
+                <fullName>Dance</fullName>
+                <default>false</default>
+                <label>Dance</label>
+            </value>
+            <value>
+                <fullName>Yoga</fullName>
+                <default>false</default>
+                <label>Yoga</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Art</controllingFieldValue>
+            <valueName>Photography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Art</controllingFieldValue>
+            <valueName>Ceramics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Art</controllingFieldValue>
+            <valueName>Painting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Art</controllingFieldValue>
+            <valueName>Jewelry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Art</controllingFieldValue>
+            <valueName>Drawing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <valueName>English I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <valueName>English II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <valueName>English III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <valueName>English IV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>History</controllingFieldValue>
+            <valueName>Geology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>History</controllingFieldValue>
+            <valueName>World History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>History</controllingFieldValue>
+            <valueName>US History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>History</controllingFieldValue>
+            <valueName>European History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>History</controllingFieldValue>
+            <valueName>Civics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Algebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Geometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Trigonometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Pre-Calculus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Statistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Calculus AB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Calculus BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Freshmen PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Sophomore PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Weight Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Dance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical Education</controllingFieldValue>
+            <valueName>Yoga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Biology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Physics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Anatomy &amp; Physiology</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

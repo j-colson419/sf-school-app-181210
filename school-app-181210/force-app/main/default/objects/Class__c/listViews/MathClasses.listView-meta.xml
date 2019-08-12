@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MathClasses</fullName>
+    <columns>NAME</columns>
+    <columns>ClassCode__c</columns>
+    <columns>Topic__c</columns>
+    <columns>ClassSize__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Subject__c</field>
+        <operation>equals</operation>
+        <value>Math</value>
+    </filters>
+    <label>Math Classes</label>
+</ListView>
